@@ -25,11 +25,10 @@
 </head>
 <body>
     <div id="app">
-
+        <h1>Genero 10 Email casuali</h1>
         <ul>
-            <li>
-                {{generateEmail()}}
-                {{email}
+            <li v-for="email in emailsArray">
+                {{email}}
             </li>
         </ul>
     </div>
